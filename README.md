@@ -1,7 +1,10 @@
 # 🧠 UBAD: Unsupervised Brain Anomaly Detection
 
-Official implementation of the paper:  
-**Unsupervised Brain Anomaly Detection Using Structure-Preserving Noise Generation and Multi-Scale Dual-Expert Ensembles**  
+---
+Official implementation of the paper: 
+
+Unsupervised Brain Anomaly Detection Using Structure-Preserving Noise Generation and Multi-Scale Dual-Expert Ensembles
+
 ---
 
 ## 🗂️ Project Structure
@@ -54,13 +57,13 @@ See [requirements.txt](./requirements.txt) for full list.
 
 Supported datasets include:
 
-- BRATS2020
-- BRATS2021
-- MEN
-- ISLE
-- ATLAS
-- IXI (cross_set)
-- MSLUB (cross_set)
+- [BraTS2020](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
+- [BraTS2021](https://www.kaggle.com/datasets/dschettler8845/brats-2021-task1)
+- [MEN](https://www.kaggle.com/datasets/rishisaiteja/brats-men)
+- [ISLE](https://zenodo.org/records/7153326)
+- [ATLAS](https://fcon_1000.projects.nitrc.org/indi/retro/atlas.html)
+- [IXI (cross_set)](https://brain-development.org/ixi-dataset/)
+- [MSLUB (cross_set)](https://lit.fe.uni-lj.si/en/research/resources/3D-MR-MS/)
 
 
 ### 📁 Dataset Preparation
