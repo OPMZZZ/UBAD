@@ -1,6 +1,7 @@
 # 🧠 UBAD: Unsupervised Brain Anomaly Detection
 
-
+Official implementation of the paper:  
+**Unsupervised Brain Anomaly Detection Using Structure-Preserving Noise Generation and Multi-Scale Dual-Expert Ensembles**  
 ---
 
 ## 🗂️ Project Structure
