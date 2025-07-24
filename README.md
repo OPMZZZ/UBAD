@@ -66,7 +66,7 @@ Supported datasets include:
 
 For **intra-set** datasets, use the scripts provided in the [`code/preprocessing/`](./code/preprocessing/) folder to perform dataset splitting and preprocessing.
 
-For **cross-set** datasets, follow the splitting instructions provided in [this script](https://github.com/FinnBehrendt/patched-Diffusion-Models-UAD) <!-- Replace `#` with actual URL or relative path -->.
+For **cross-set** datasets, follow the splitting instructions provided in [pDDPM](https://github.com/FinnBehrendt/patched-Diffusion-Models-UAD) <!-- Replace `#` with actual URL or relative path -->.
 
 > ⚠️ **Important:** Before splitting, the following datasets require **resampling** and **skull stripping**:
 >
@@ -75,7 +75,7 @@ For **cross-set** datasets, follow the splitting instructions provided in [this 
 > - IXI  
 > - MSLUB  
 >
-> Please refer to the implementation in [this reference](https://github.com/FinnBehrendt/patched-Diffusion-Models-UAD) <!-- Replace `#` with actual URL or relative path --> for details on these preprocessing steps.
+> Please refer to the implementation in [pDDPM](https://github.com/FinnBehrendt/patched-Diffusion-Models-UAD) <!-- Replace `#` with actual URL or relative path --> for details on these preprocessing steps.
 
 
 
@@ -95,6 +95,13 @@ Cross_set training and validation are supported (`cross_train.py`, `cross_infer.
 
 ---
 
+
+### 🙏 Acknowledgements
+
+This project is built upon and inspired by [DAE](https://github.com/AntanasKascenas/DenoisingAE) and [pDDPM](https://github.com/FinnBehrendt/patched-Diffusion-Models-UAD).  
+We sincerely thank the original authors for their valuable contributions to the open-source community.
+
+---
 ## 📄 License
 
 This project is licensed under the MIT License.
