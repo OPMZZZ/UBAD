@@ -55,7 +55,7 @@ def denoising(identifier: str, data: Optional[Union[str, DataDescriptor]] = None
             err_map2[torch.isnan(err_map2)] = 0
 
             err = (err_map3 + err_map4).mean(dim=1, keepdim=True)
-            err = torch.flip(err, dims=[-2, -1])
+            # err = torch.flip(err, dims=[-2, -1]) only use in ATLAS
         return err.cpu()
 
     def SLIC_BSD(gts, fake0s, fake1s, regions):
@@ -213,3 +213,4 @@ if __name__ == "__main__":
     train(
           seed=args.seed,
           batch_size=args.batch_size)
+
